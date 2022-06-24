@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Student Database (Java / JS)</title>
+<link rel="stylesheet" href="styles.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link
+	href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+	rel="stylesheet">
+<script type="text/javascript" src="ajaxhelper.js"></script>
+</head>
+
+<body>
+	<header class="first-header">
+		<h3>DYNAMIC WEB APPLICATION - STUDENT DATABASE</h3>
+	</header>
+
+	<header class="second-header">
+
+		<figure class="header-cards" id="created-by">
+			<div class="profile-images">
+				<img src="./images/profile.JPG" alt="Vlad's profile picture"
+					id="profile-img">
+			</div>
+			<div class="profile-descriptions" id="createdBy">
+				<h4>Created by</h4>
+				<div class="contacts-and-technologies">
+					<p>Vladislav Altunin</p>
+					<p>07765 96 53 96</p>
+					<p>vladislav.altunin@gmail.com</p>
+				</div>
+				<div class="social-icons">
+					<div class="social-icon">
+						<a href="https://www.linkedin.com/in/vladislav-altunin/" target="_blank"><img alt="linkedin-link"
+							src="./images/icons/icon_linkedin.png"></a>
+					</div>
+					<div class="social-icon">
+						<a href="https://github.com/vladislav-altunin" target="_blank"><img alt="github-link"
+							src="./images/icons/icon_github.png"></a>
+					</div>
+					<div class="social-icon">
+						<a href="https://www.instagram.com/suomilive/" target="_blank"><img alt="instagram-link"
+							src="./images/icons/icon_instagram.png"></a>
+					</div>
+				</div>
+			</div>
+		</figure>
+
+		<figure class="header-cards" id="technologies-used">
+			<h4>Technologies used</h4>
+			<div class="technologies">
+				<div class="technologies-box">
+					<p>JavaScript (Frontend)</p>
+					<p>Java (Backend)</p>
+					<p>SQL (Database)</p>
+				</div>
+				<div class="technologies-box">
+					<p>CSS / HTML</p>
+					<p>AWS (Deployment)</p>
+					<p>Sketch (Prototyping)</p>
+				</div>
+			</div>
+			<div class="download-link">
+				<p>
+					<a href="#" id="src-dwnld-index">Download source files (zip)</a>
+				</p>
+			</div>
+		</figure>
+
+	</header>
+
+	<main>
+		<div class="empty-page-container" id="empty-page-container"></div>
+		<h2 class="table-heading" id="table-heading">Student Database</h2>
+		<div class="table-header-container" id="table-header-container"></div>
+		<div class="table-container" id="table-container">
+			<div class="table" role="table" id="table"></div>
+		</div>
+	</main>
+
+	<footer>
+		<div class="footer-container">
+			<h6>2022 Vladislav Altunin</h6>
+			<p>
+				<a href="./downloads/cv-altunin.pdf" id="cv-dwnld-index" target="_blank">Download my CV</a>
+			</p>
+		</div>
+	</footer>
+	<script src="index.js"></script>
+	<script src="studentDelete.js"></script>
+	<script src="crudFunctions.js"></script>
+</body>
+</html>

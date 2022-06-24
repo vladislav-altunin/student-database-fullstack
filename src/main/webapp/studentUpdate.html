@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Student Database (Java / JS)</title>
+<script type="text/javascript" src="ajaxhelper.js"></script>
+<link rel="stylesheet" href="styles.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link
+	href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+	rel="stylesheet">
+</head>
+<body>
+	<header class="first-header">
+		<h3>DYNAMIC WEB APPLICATION - STUDENT DATABASE</h3>
+	</header>
+
+	<header class="second-header">
+
+		<figure class="header-cards" id="created-by">
+			<div class="profile-images">
+				<img src="./images/profile.JPG" alt="Vlad's profile picture"
+					id="profile-img">
+			</div>
+			<div class="profile-descriptions" id="createdBy">
+				<h4>Created by</h4>
+				<div class="contacts-and-technologies">
+					<p>Vladislav Altunin</p>
+					<p>07765 96 53 96</p>
+					<p>vladislav.altunin@gmail.com</p>
+				</div>
+				<div class="social-icons">
+					<div class="social-icon">
+						<a href="https://www.linkedin.com/in/vladislav-altunin/" target="_blank"><img alt="linkedin-link"
+							src="./images/icons/icon_linkedin.png"></a>
+					</div>
+					<div class="social-icon">
+						<a href="https://github.com/vladislav-altunin" target="_blank"><img alt="github-link"
+							src="./images/icons/icon_github.png"></a>
+					</div>
+					<div class="social-icon">
+						<a href="https://www.instagram.com/suomilive/" target="_blank"><img alt="instagram-link"
+							src="./images/icons/icon_instagram.png"></a>
+					</div>
+				</div>
+			</div>
+		</figure>
+
+		<figure class="header-cards" id="technologies-used">
+			<h4>Technologies used</h4>
+			<div class="technologies">
+				<div class="technologies-box">
+					<p>JavaScript (Frontend)</p>
+					<p>Java (Backend)</p>
+					<p>SQL (Database)</p>
+				</div>
+				<div class="technologies-box">
+					<p>CSS / HTML</p>
+					<p>AWS (Deployment)</p>
+					<p>Sketch (Prototyping)</p>
+				</div>
+			</div>
+			<div class="download-link">
+				<p>
+					<a href="#" id="src-dwnld-update">Download source files (zip)</a>
+				</p>
+			</div>
+		</figure>
+
+	</header>
+
+	<main class="addStudent-main">
+		<h2 class="table-heading" id="table-heading">Update Student
+			Information</h2>
+		<form id="studentUpdateForm" name="formStudentUpdate">
+			<label for="id">Student id:</label> <input type="text" id="id" class="update-id"
+				name="txtId"><label for="fname">First name:</label><input
+				type="text" placeholder="First name" id="fname" name="txtFname">
+			<label for="lname">Last name:</label> <input type="text"
+				placeholder="Last name" id="lname" name="txtLname"> <label
+				for="streetaddress">Street address:</label> <input type="text"
+				id="streetaddress" name="txtStreetaddress"> <label
+				for="postcode">Postcode:</label> <input type="text"
+				placeholder="Postcode" id="postcode" name="txtPostcode"> <label
+				for="postoffice">City:</label> <input type="text" placeholder="City"
+				id="postoffice" name="txtPostoffice"> <input type="button"
+				value="Update" class="ok-buttons" onclick="updateStudent()">
+			<input type="button" value="Cancel" class="cancel-buttons"
+				onclick="location.replace('index.html')">
+		</form>
+	</main>
+	
+	<footer>
+		<div class="footer-container">
+			<h6>2022 Vladislav Altunin</h6>
+			<p>
+				<a href="./downloads/cv-altunin.pdf" id="cv-dwnld-update" target="_blank">Download my CV</a>
+			</p>
+		</div>
+	</footer>
+	<script type="text/javascript" src="studentUpdate.js"></script>
+</body>
+</html>
