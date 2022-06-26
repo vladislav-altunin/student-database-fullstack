@@ -175,13 +175,14 @@ public class StudentDAO {
 			errorCode = 0;
 
 		} catch (SQLException sqle) {
-			if (sqle.getErrorCode() == ConnectionParameters.PK_VIOLATION_ERROR) {
+			int sqlState = Integer.parseInt(sqle.getSQLState());
+			
+			if (sqlState == ConnectionParameters.PK_VIOLATION_ERROR) {
 				errorCode = 1;
 			} else {
 				System.out.println("\n[ERROR] StudentDAO: insertStudent() failed. " + sqle.getMessage() + "\n");
 				errorCode = -1;
 			}
-
 		} finally {
 			DbUtils.closeQuietly(preparedStatement, connection);
 		}

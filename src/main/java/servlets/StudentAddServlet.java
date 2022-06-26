@@ -43,6 +43,7 @@ public class StudentAddServlet extends HttpServlet {
 			StudentDAO studentDao = new StudentDAO();
 			
 			errorCode = studentDao.insertStudent(student);
+			System.out.println(errorCode);
 		} catch (Exception nfe) {
 			System.out.println("\n [ERROR] StudentAddServlet: doPost() failed" + nfe.getMessage() + "\n");
 		}
