@@ -2,11 +2,11 @@
 
 Check the following sections below for more information:
 
-* Goals
-* Description
-* Repo structure and source files
-* How to run the application
-* Demonstation video
+:dart: Goals
+:memo: Description
+:file_folder: Repo structure and source files
+:arrow_forward: How to run the application
+:tv: Demonstation video
 
 ## Goals
 
