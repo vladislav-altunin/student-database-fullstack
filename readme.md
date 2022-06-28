@@ -10,7 +10,7 @@ Check the following sections below for more information:
 
 ## Goals
 
-The primary goals are to demonstrate awareness of design patterns (The Java DAO pattern in this case), the ability to connect (to) a database, and other skills required to build a dynamic web application (e.g. Java Servlets, The Fetch API).
+The primary goals are to demonstrate awareness of ==design patterns== (The Java DAO pattern in this case), the ability to connect (to) a ==database==, and other skills required to build a dynamic web application (e.g. ==Java Servlets==, ==The Fetch API==).
 
 NB The UI components of the application built with plain JavaScript, CSS and HTML are aiming to slightly improve the user experience. That is, best practices were not followed nor frontend libraries / frameworks were used.
 
@@ -47,7 +47,7 @@ To run the web application on a local host you would need to have installed the 
 - Database: PostgreSQL
 - Web Server: Apache Tomcat 8.5.73
 
-Run src/main/webapp/index.html
+Run `src/main/webapp/index.html`
 
 If you are not able to test the application, check a demonstration video below.
 
