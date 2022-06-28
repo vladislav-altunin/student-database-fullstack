@@ -61,7 +61,7 @@ While a cloud version of the application is being developed, here are some scree
 
 2. Add student form (can be autofilled)
 
-![add student](https://github.com/vladislav-altunin/student-database-fullstack/blob/main/src/main/webapp/images/student_db_pics/add.png)\
+![add student](https://github.com/vladislav-altunin/student-database-fullstack/blob/main/src/main/webapp/images/student_db_pics/add.png)
 
 3. Home page, populated database
 
