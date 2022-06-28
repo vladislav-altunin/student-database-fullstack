@@ -1,12 +1,12 @@
 # Student Database Dynamic Web Application
 
-This is a readme file for the student-database-fullstack GitHub repository. Check the following sections below for more information:
+Check the following sections below for more information:
 
 * Goals
 * Description
 * Repo structure and source files
 * How to run the application
-* Screenshots
+* Demonstation video
 
 ## Goals
 
@@ -38,3 +38,20 @@ Java files are divided into three folders:
 JavaScript files and HTML & CSS src/main/webapp
 
 ## How to run the application
+
+Cloud version is coming soon
+
+To run the web application on a local host you would need to have installed the following:
+
+- IDE: Eclipse IDE for Enterprise Java and Web Developers
+- Database: PostgreSQL
+- Web Server: Apache Tomcat 8.5.73
+
+Run src/main/webapp/index.html
+
+If you are not able to test the application, check a demonstration video below.
+
+## Demonstration video
+
+While a cloud version of the application is being developed, check the demonstration video below :)
+
