@@ -28,7 +28,7 @@ Other: UI components were built using JavaScript, CSS and HTML.
 
 All code is located in the `src/main` folder
 
-Java files src/main/java
+Java files `src/main/java`
 
 Java files are divided into three folders:
 * `data_access` - includes db connection parameters, db utils, the DAO
