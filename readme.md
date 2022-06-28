@@ -26,7 +26,7 @@ Other: UI components were built using JavaScript, CSS and HTML.
 
 ## Repo structure and source files
 
-All code is located in the src/main folder
+All code is located in the `src/main folder`
 
 Java files src/main/java
 
@@ -35,7 +35,7 @@ Java files are divided into three folders:
 * model - includes the Student class
 * servlets
 
-JavaScript files and HTML & CSS src/main/webapp
+JavaScript files and HTML & CSS `src/main/webapp`
 
 ## How to run the application
 
