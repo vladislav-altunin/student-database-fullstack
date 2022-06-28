@@ -2,11 +2,11 @@
 
 Check the following sections below for more information:
 
-:dart: Goals \
-:memo: Description \
-:file_folder: Repo structure and source files \
-:arrow_forward: How to run the application \
-:camera: Screenshots 
+:dart:  Goals \
+:memo:  Description \
+:file_folder:  Repo structure and source files \
+:arrow_forward:  How to run the application \
+:camera:  Screenshots 
 
 ## Goals
 
