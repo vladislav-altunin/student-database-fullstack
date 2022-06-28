@@ -55,3 +55,22 @@ If you are not able to test the application, check a demonstration video below.
 
 While a cloud version of the application is being developed, check the demonstration video below :)
 
+1. Home page, empty database, CTA "Add Student"\
+
+![home page](https://github.com/vladislav-altunin/student-database-fullstack/blob/main/src/main/webapp/images/student_db_pics/empty.png)\
+
+2. Add student form (can be autofilled) \
+
+![add student](https://github.com/vladislav-altunin/student-database-fullstack/blob/main/src/main/webapp/images/student_db_pics/add.png)\
+
+3. Home page, populated database \
+
+![database](https://github.com/vladislav-altunin/student-database-fullstack/blob/main/src/main/webapp/images/student_db_pics/database.png)\
+
+4. Update student information. Notice, that student number cannot be updated. \
+
+![update student](https://github.com/vladislav-altunin/student-database-fullstack/blob/main/src/main/webapp/images/student_db_pics/update.png)\
+
+5. Delete student. Confirm deletion.
+
+![delete student](https://github.com/vladislav-altunin/student-database-fullstack/blob/main/src/main/webapp/images/student_db_pics/delete.png)\
