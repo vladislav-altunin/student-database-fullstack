@@ -6,7 +6,7 @@ Check the following sections below for more information:
 :memo: Description \
 :file_folder: Repo structure and source files \
 :arrow_forward: How to run the application \
-:tv: Demonstation video 
+:camera: Screenshots 
 
 ## Goals
 
@@ -49,28 +49,28 @@ To run the web application on a local host you would need to have installed the 
 
 Run `src/main/webapp/index.html`
 
-If you are not able to test the application, check a demonstration video below.
+If you are not able to test the application, check some screenshots below.
 
-## Demonstration video
+## Screenshots
 
-While a cloud version of the application is being developed, check the demonstration video below :)
+While a cloud version of the application is being developed, here are some screenshots :)
 
-1. Home page, empty database, CTA "Add Student"\
+1. Home page, empty database, CTA "Add Student"
 
-![home page](https://github.com/vladislav-altunin/student-database-fullstack/blob/main/src/main/webapp/images/student_db_pics/empty.png)\
+![home page](https://github.com/vladislav-altunin/student-database-fullstack/blob/main/src/main/webapp/images/student_db_pics/empty.png)
 
-2. Add student form (can be autofilled) \
+2. Add student form (can be autofilled)
 
 ![add student](https://github.com/vladislav-altunin/student-database-fullstack/blob/main/src/main/webapp/images/student_db_pics/add.png)\
 
-3. Home page, populated database \
+3. Home page, populated database
 
-![database](https://github.com/vladislav-altunin/student-database-fullstack/blob/main/src/main/webapp/images/student_db_pics/database.png)\
+![database](https://github.com/vladislav-altunin/student-database-fullstack/blob/main/src/main/webapp/images/student_db_pics/database.png)
 
-4. Update student information. Notice, that student number cannot be updated. \
+4. Update student information. Notice, that student number cannot be updated.
 
-![update student](https://github.com/vladislav-altunin/student-database-fullstack/blob/main/src/main/webapp/images/student_db_pics/update.png)\
+![update student](https://github.com/vladislav-altunin/student-database-fullstack/blob/main/src/main/webapp/images/student_db_pics/update.png)
 
 5. Delete student. Confirm deletion.
 
-![delete student](https://github.com/vladislav-altunin/student-database-fullstack/blob/main/src/main/webapp/images/student_db_pics/delete.png)\
+![delete student](https://github.com/vladislav-altunin/student-database-fullstack/blob/main/src/main/webapp/images/student_db_pics/delete.png)
